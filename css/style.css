@@ -1,1 +1,49 @@
 /*My Styles*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------- Menu ---------------*/
+header nav {
+    background: #333;
+    padding: 1rem;
+}
+
+header nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: rgb(30, 239, 30);
+}
+
+/*--------------- Main ---------------*/
+main {
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+form button {
+    max-width: 100px;
+    background-color: rgb(30, 239, 30);
+}
+
+/*--------------- Footer ---------------*/
+footer p {
+    font-style: italic;
+}

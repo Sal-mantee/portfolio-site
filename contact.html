@@ -3,34 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Contac | Salman Tellot</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <header>
-      <nav>
+      <nav class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <a class="active" href="contact.html">Contact</a>
       </nav>
     </header>
 
-    <main>
-      <h1>Contact Me</h1>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
+    <main class="container">
+      <section class="contact-card">
+        <h1>Get in touch</h1>
+        <p>
+          If you'd like to collaborate or have any questions, feel free to reach
+          out.
+        </p>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
 
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
 
-        <button type="submit">Send</button>
-      </form>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
     </main>
 
     <footer>
